@@ -86,6 +86,7 @@ public class Demo1 extends Application  {
 				 TableColumn naamCol = new TableColumn("naam");
 				 TableColumn tussenvoegselCol = new TableColumn("tussenvoegsel");
 				 TableColumn achternaamCol = new TableColumn("achternaam");
+				 TableColumn emailCol = new TableColumn("email");
 				 TableColumn straatnaamCol = new TableColumn("straatnaam");
 				 TableColumn huisnummerCol = new TableColumn("huisnummer");
 				 TableColumn toevoegingCol = new TableColumn("toevoeging");
@@ -95,7 +96,7 @@ public class Demo1 extends Application  {
 				 TableColumn updateCol = new TableColumn("update");
 				 
 				 table.getColumns().addAll(klantIdCol,naamCol,tussenvoegselCol,achternaamCol,
-						 straatnaamCol,huisnummerCol,toevoegingCol,postcodeCol,woonplaatsCol,deleteCol,
+						 emailCol, straatnaamCol,huisnummerCol,toevoegingCol,postcodeCol,woonplaatsCol,deleteCol,
 						 updateCol);
 				 HBox hBoxConnection = new HBox();
 				 hBoxConnection.getChildren().addAll(
